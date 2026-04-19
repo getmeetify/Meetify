@@ -13,8 +13,9 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-  - [Tech Stack](#tech-stack)
+  - [Prerequisites](#prerequisites)
   - [Installation Guide](#installation-guide)
 - [Usage](#usage)
   - [Creating a Meeting](#creating-a-meeting)
@@ -54,7 +55,7 @@ Ensure you have the following installed:
 * A **Stream** account (for Video SDK credentials)
 * A **Clerk** account (for authentication keys)
 
-### Installation
+### Installation Guide
 
 1. **Clone the repository:**
    ```bash
