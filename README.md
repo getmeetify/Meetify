@@ -20,6 +20,7 @@
 - [Usage](#usage)
   - [Creating a Meeting](#creating-a-meeting)
   - [Managing your Profile](#managing-your-profile)
+- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#-license)
 
