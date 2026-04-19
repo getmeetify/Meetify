@@ -9,7 +9,22 @@
 
 <img width="1484" height="715" alt="Screenshot 2026-04-18 8 43 49 PM" src="https://github.com/user-attachments/assets/499eb00e-78ec-498d-af2a-8992b39bce97" />
 
-Meetify is a modern, enterprise-ready video conferencing application built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**. It leverages the **Stream Video SDK** to provide a scalable, low-latency, and high-quality communication experience.
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Tech Stack](#tech-stack)
+  - [Installation Guide](#installation-guide)
+- [Usage](#usage)
+  - [Contests Section](#contests-section)
+  - [User Profiles](#user-profiles)
+- [Contributing](#contributing)
+- [License](#-license)
+
+# Introduction
+
+**Meetify** is a modern, enterprise-ready video conferencing application built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**. It leverages the **Stream Video SDK** to provide a scalable, low-latency, and high-quality communication experience.
 
 ## 🚀 Features
 
@@ -35,8 +50,9 @@ Meetify is a modern, enterprise-ready video conferencing application built with 
 ### Prerequisites
 
 Ensure you have the following installed:
-* [Node.js](https://nodejs.org/) (Latest LTS)
-* [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+* **Node.js** (v18.0.0 or higher)
+* A **Stream** account (for Video SDK credentials)
+* A **Clerk** account (for authentication keys)
 
 ### Installation
 
@@ -74,6 +90,18 @@ Create a `.env.local` file in the root directory and add your credentials from C
 5. **Open the app:**
 Open `http://localhost:3000` in your browser to see the result.
 
+# Usage
+
+### Creating a Meeting
+
+1. Navigate to the **Dashboard**.
+2. Click **"New Meeting"**.
+3. Copy the generated link and send it to your participants.
+
+### Managing your Profile
+
+* Users can update their display names and avatars via the **Account Settings** tab, which syncs directly with Clerk and Stream
+
 ## Project Structure
 
 This project uses the [Next.js App Router](https://nextjs.org) structure with a clear separation of concerns to maintain organization and scalability.
@@ -89,13 +117,7 @@ This project uses the [Next.js App Router](https://nextjs.org) structure with a 
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
 
 ## License
 
