@@ -14,13 +14,16 @@ import Link from "next/link";
 import { sidebarLinks } from "@/constants";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { useUser } from "@clerk/nextjs";
 
 const MobileNav = () => {
   const pathName = usePathname();
+  const { isSignedIn } = useUser();
+
   return (
     <section className="w-full max-w-[246px]">
       <Sheet>
-        <SheetTrigger asChild>
+        {isSignedIn && <SheetTrigger asChild>
           <Image
             src={"/icons/hamburger.svg"}
             width={36}
@@ -28,7 +31,7 @@ const MobileNav = () => {
             alt="hamburger icon"
             className="cursor-pointer sm:hidden"
           />
-        </SheetTrigger>
+        </SheetTrigger>}
         <SheetContent side={"left"} className="border-none bg-dark-1">
           {/* Accessible but hidden title */}
           <SheetHeader>
