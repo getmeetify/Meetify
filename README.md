@@ -121,6 +121,30 @@ This project uses the [Next.js App Router](https://nextjs.org) structure with a 
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
 
+<div>
+  <h1><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f49e/512.webp" width="40" height="40"> Contributors</h1>
+</div>
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Temi-Tade"><img src="https://avatars.githubusercontent.com/u/104860162?v=4?s=100" width="100px;" alt="Temiloluwa Akintade"/><br /><sub><b>Temiloluwa Akintade/b></sub></a><br /><a href="https://github.com/getmeetify/Meetify/commits?author=Temi-Tade" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<hr>
+
 ## License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
