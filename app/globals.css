@@ -1,17 +1,17 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: .25s;
 }
 
+html {
+  transition: .25s;
+}
 
 body {
   --sb-track-color: #232E33;
@@ -195,6 +195,22 @@ body::-webkit-scrollbar-thumb {
 }
 .cl-userButtonPopoverActionButton {
   color: white;
+}
+.cl-badge{
+  color: #01d913;
+}
+.cl-avatarImageActionsUpload{
+  color: white;
+}
+.cl-avatarImageActionsUpload:hover{
+  border: 2px solid #ccc7;
+  box-shadow: 0 0 0px 1.5px #ccc7;
+}
+.cl-menuItem__connectedAccounts{
+  color: white
+}
+.cl-menuItem__connectedAccounts:hover{
+  background: #fff3;
 }
 
 /* =============================== */

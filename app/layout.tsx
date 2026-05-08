@@ -40,7 +40,6 @@ export default function RootLayout({
       elements: {
         alternativeMethodsBlockButtonText: "text-white",
         alternativeMethodsBlockButton: "text-white hover:bg-[#4447] transition-all duration-250",
-        
       }
     }}>
       <html lang="en">
